@@ -13,5 +13,6 @@ export interface exchange {
     socket: boolean
     exchangeUrl: string
     updated: number
+    exchangeId: string
   }
   

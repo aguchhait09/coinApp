@@ -13,6 +13,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Link from 'next/link';
+import MenuIcon from '@mui/icons-material/Menu';
 
 interface Props {
 
@@ -59,8 +60,9 @@ export default function Header(props: Props) {
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none', backgroundColor: 'black' } }}
+            sx={{ mr: 2, display: { sm: 'none',} }}
           >
+            <MenuIcon/>
           </IconButton>
           <Typography
             variant="h6"
